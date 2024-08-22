@@ -1,12 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 .navbar-google{
     list-style-type: none;
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
+    align-items: center;
+    margin: 10px;
 }
+
 
 .navbar-item-google{
     margin: 10px;
+    height: 48px;
+    padding: 4px 4px;
 }
 
 a:link {
@@ -21,6 +32,15 @@ a:hover{
 }
 a:active{
     color: black;
+}
+
+.container{
+    display: flex;
+    flex-direction: column; 
+    min-height: 92px;
+    height: calc(100% - 560px);
+    max-height: 290px;
+    margin-top: 7em;
 }
 
 .center-div{
